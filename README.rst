@@ -1,9 +1,11 @@
-.. image:: https://img.shields.io/pypi/v/oldest-supported-numpy
-   :target: https://pypi.org/project/oldest-supported-numpy/
+.. image:: https://img.shields.io/pypi/v/pymor-oldest-supported-numpy
+   :target: https://pypi.org/project/pymor-oldest-supported-numpy/
    :alt: PyPI
 
 About
 -----
+
+~~ Original Readme below of unadapted oldest-supported-numpy ~~
 
 This is a meta-package which can be used in ``pyproject.toml`` files
 to automatically provide as a build-time dependency the oldest version
