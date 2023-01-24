@@ -17,8 +17,8 @@ jobs:
           python-version: '3.10'
           architecture: 'x64'
 
-      - name: Install twine
-        run: pip install twine
+      - name: Install dependencies
+        run: pip install twine build
 
       - name: Build
         run: python -m build
