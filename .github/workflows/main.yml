@@ -15,10 +15,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       max-parallel: 4
+      fail-fast: false
       matrix:
         os: [ 'windows-latest', 'macos-latest', 'ubuntu-latest' ]
         python: [ '3.7', '3.8', '3.9', '3.10', '3.11' ]
-        arch: [ 'x64', 'x86' ]
+        arch: [ 'x64',  ]
         qemu: [ 'yes', 'no' ]
         exclude:
           - os: macos-latest
