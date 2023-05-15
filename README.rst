@@ -1,3 +1,7 @@
+This package is no longer used.
+-------------------------------
+
+
 .. image:: https://img.shields.io/pypi/v/pymor-oldest-supported-numpy
    :target: https://pypi.org/project/pymor-oldest-supported-numpy/
    :alt: PyPI
